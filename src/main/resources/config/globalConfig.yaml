@@ -1,0 +1,12 @@
+appium:
+  url: http://127.0.0.1:4723/wd/hub
+  waitTime: 5
+  capabilities:
+    platformName: android
+    deviceName: xueqiu
+    appPackage: com.android.contacts
+    appActivity: .activities.PeopleActivity
+    noReset: true
+
+    printPageSourceOnFindFailure: true
+    resetKeyboard: true
